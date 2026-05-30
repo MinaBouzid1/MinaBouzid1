@@ -9,11 +9,11 @@
 ╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝   ╚═════╝  ╚═════╝  ╚═════╝ ╚══════╝╚═╝╚═════╝
 ```
 
-### 🪐 Full-Stack Developer · AI/ML Engineer · MLOps Enthusiast
+### 🪐 Backend Engineer · Microservices Architect · AI/ML Developer
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Mina_Bouzid-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mina-bouzid-ab3ba5330/)
 [![GitHub](https://img.shields.io/badge/GitHub-MinaBouzid1-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MinaBouzid1)
-[![FST Tanger](https://img.shields.io/badge/FST-Tanger_LSI2-1a2e4a?style=for-the-badge)](https://www.fstt.ac.ma)
+[![FST Tanger](https://img.shields.io/badge/FST_Tanger-LSI2-1a2e4a?style=for-the-badge)](https://www.fstt.ac.ma)
 
 </div>
 
@@ -21,83 +21,124 @@
 
 ## 👋 About Me
 
-I'm **Mina Bouzid**, a passionate software engineering student at **FST Tanger (LSI2)** who builds systems at the intersection of **AI, Machine Learning, and Web Development**. I love turning complex problems into elegant, production-ready solutions — from intelligent e-commerce pipelines to luxurious event platforms.
+I'm **Mina Bouzid**, a software engineering student at **FST Tanger (LSI2)** and a **Backend Engineer** who designs and builds production-grade distributed systems. My core strength is architecting scalable microservices backends — from data modeling and API design to security, async messaging, and blockchain integration.
 
-> *"I don't just write code. I architect intelligent systems."*
+> *"I architect systems that scale. Backend is not just code — it's the backbone of everything."*
 
-- 🔭 Currently working on **AI-powered e-commerce intelligence** with MLOps pipelines
-- 🌱 Deep-diving into **LLMs, MCP Architecture (Anthropic), and Kubeflow**
-- ⚡ I build end-to-end: from web scraping agents to business intelligence dashboards
-- 🌍 Based in **Morocco** | Open to collaboration & opportunities
+- 🏗️ **Architect & Backend Engineer** on complex microservices platforms (Spring Boot, JEE, EJB)
+- 🤖 Building AI pipelines with LLMs, MLOps, Reinforcement Learning
+- 📱 Shipping cross-platform mobile apps with React Native + LLM reasoning
+- ⛓️ Integrating Ethereum blockchain & smart contracts into real systems
+- 🌍 Based in **Morocco** · Open to collaboration & opportunities
 
 ---
 
 ## 🚀 Featured Projects
 
-### ◈ [Smart eCommerce Intelligence](https://github.com/MinaBouzid1/smart-ecommerce) ⭐
-> *The most advanced project — a full MLOps pipeline for e-commerce analytics*
+---
 
-An end-to-end AI system that automatically collects product data from 8+ online stores, processes it through ML algorithms, and generates business insights via LLMs — all orchestrated in a production-grade MLOps pipeline.
+### 🏠 [Decentralized Rental Platform — JEE Microservices](https://github.com/MinaBouzid1/JEE-Project) ⭐
+> **Role: Architect & Backend Engineer** · 120 commits · Java · Spring Boot · Blockchain
+
+A production-grade real-estate rental platform that combines a **9-microservice Spring Boot backend**, an **Ethereum blockchain escrow system**, an **Angular frontend**, a **FastAPI AI service**, and full **AWS cloud deployment**.
+
+**My role — Backend Architecture & Engineering:**
+- 🏗️ Designed the entire **5-layer microservices architecture** (Frontend → API Gateway → Microservices → Infrastructure → Data/Blockchain)
+- ⚙️ Built and configured the **full Spring Cloud infrastructure**: Eureka service discovery, centralized Config Server, API Gateway with JWT security + rate limiting + CORS
+- 🔧 Developed **9 microservices** from scratch: User, Listing, Booking, Payment, Messaging, Notification, Review, Media, Blockchain (ports 8081–8089)
+- 🔐 Implemented **JWT auth with refresh tokens**, BCrypt, role-based security (USER / HOST / ADMIN), blacklisting, audit logs
+- 💬 Built **real-time WebSocket chat** (STOMP protocol) with message history, read receipts, archiving
+- 📨 Configured **RabbitMQ** async messaging — exchanges, queues, dead-letter queues, publish-subscribe patterns
+- 🗄️ Designed the **full MySQL schema**: normalized tables, relationships, indexes, constraints, stored procedures
+- ⛓️ Integrated **Web3j + Ethereum** for ETH payments, escrow funds, on-chain booking confirmation, gas fee tracking
+- ☁️ Designed cloud architecture with **AWS S3** (media storage), multi-environment support, Spring Boot Actuator monitoring
+- 📐 Produced full **UML documentation**: class diagrams, activity diagrams, use-case diagrams for all packages
+
+```
+Angular + NgRx
+      ↓ HTTPS
+API Gateway (JWT · Rate Limiting · Load Balancing)
+      ↓
+User(8081) · Listing(8082) · Booking(8083) · Payment(8084)
+Messaging(8085) · Notification(8086) · Review(8087) · Media(8088) · Blockchain(8089)
+      ↓
+Eureka(8761) · Config(8888) · RabbitMQ(5672)
+      ↓
+MySQL 8.0 · AWS S3
+      ↓
+Ethereum Sepolia · Smart Contracts · MetaMask
+```
+
+**Backend stats:** ~40,000+ lines of Java · 150+ classes · 80+ interfaces · 200+ unit tests · <200ms average response time
+
+**Stack:** `Java 17` `Spring Boot 3` `Spring Cloud` `Spring Security` `JPA/Hibernate` `MySQL` `RabbitMQ` `Web3j` `Ethereum` `AWS S3` `Docker` `Maven`
+
+---
+
+### ◈ [Smart eCommerce Intelligence](https://github.com/MinaBouzid1/smart-ecommerce) ⭐
+> *End-to-end AI/ML pipeline · MLOps · LLMs · Business Intelligence*
+
+A complete AI system that collects product data from 8+ Shopify stores via autonomous A2A scraping agents, processes it through ML algorithms, enriches it with LLMs, and visualizes everything in a 7-page BI dashboard — orchestrated by a full MLOps pipeline.
 
 ```
 Shopify API ──► A2A Agents ──► ML Pipeline ──► LLM Enrichment ──► BI Dashboard
-                (Parallel)    (KMeans+XGBoost) (Groq LLaMA 3.1)  (Streamlit)
-                                    │
-                         Kubeflow + Docker + GitHub Actions CI/CD
-                                    │
-                          MCP Architecture (Anthropic 2025-03-26)
+               (Parallel)    (KMeans+XGBoost)  (Groq LLaMA 3.1)  (Streamlit)
+                                   │
+                        Kubeflow + Docker + GitHub Actions CI/CD
+                                   │
+                         MCP Architecture (Anthropic 2025-03-26)
 ```
 
 **Key highlights:**
-- 🕷️ **Distributed A2A scraping agents** — Shopify API + Playwright for JS-heavy sites (3,200+ products collected)
-- 🧠 **ML algorithms** — KMeans clustering (Silhouette ~0.796), XGBoost classification (accuracy ~0.82–0.90), Apriori association rules
-- 🤖 **LLM layer** — product summaries, market trend reports & marketing strategies via Groq LLaMA 3.1-8b
-- 🔒 **MCP implementation** — least-privilege agents, full JSONL audit logging, Anthropic spec 2025-03-26
+- 🕷️ **Distributed A2A scraping** — Shopify API + Playwright for JS-heavy sites · 3,200+ products collected
+- 🧠 **ML pipeline** — KMeans clustering (Silhouette ~0.796), XGBoost classification (accuracy ~0.82–0.90), Apriori association rules, composite Top-K scoring
+- 🤖 **LLM layer** — product summaries, market trend reports & marketing strategies via Groq LLaMA 3.1-8b + LangChain
+- 🔒 **Anthropic MCP** — least-privilege agents, full JSONL audit logging, spec 2025-03-26 compliant
 - ⚙️ **MLOps** — Kubeflow pipelines, Docker containers, GitHub Actions CI/CD with pytest coverage
-- 📊 **7-page Streamlit BI dashboard** — interactive charts, KPIs, chatbot Q&A, MCP audit viewer
+- 📊 **7-page Streamlit BI dashboard** — KPIs, clustering visualization, AI chatbot Q&A, MCP audit viewer
 
-**Stack:** `Python` `Scikit-learn` `XGBoost` `LangChain` `Groq` `Kubeflow` `Docker` `Streamlit` `Playwright` `Scrapy`
+**Stack:** `Python` `Scikit-learn` `XGBoost` `LangChain` `Groq` `Kubeflow` `Docker` `Streamlit` `Playwright` `Scrapy` `Anthropic MCP`
 
 ---
 
-### 🎵 [Harmoniq](https://github.com/MinaBouzid1/harmoniq)
-> *Where Every Event Finds Its Perfect Rhythm*
+### 📱 [CampusEvents AI](https://github.com/MinaBouzid1/CampusEvents_AI)
+> *Cross-platform mobile app · React Native · Expo · LLM-powered assistant*
 
-A luxurious, full-featured **event planning platform** built to transform chaotic event management into an elegant, seamless experience. Designed with premium UX principles from the ground up.
+A multiplatform mobile application (iOS/Android) that centralizes university campus events and helps students find the most relevant ones using an LLM as the reasoning engine over the full event catalogue.
 
 **Key highlights:**
-- 🏗️ Built on **Symfony 7** with a proper MVC architecture, database migrations, and test suite
-- 🎨 Styled with **Tailwind CSS** for a refined, responsive design
-- 🐳 **Dockerized** with `compose.yaml` and `compose.override.yaml` for dev/prod parity
-- 🌐 Multi-environment support (`.env.dev`, `.env.test`) + PHPUnit testing
+- 📅 **Full event lifecycle** — Admin CRUD + student browsing, filtering, registration, favorites
+- 🤖 **4 LLM-powered AI features** — natural language event search, personalized recommendations based on favorites history, conflict-free schedule planning, and open Q&A on the catalogue
+- 🗄️ **Local SQLite database** with full relational integrity: cascade deletes, unique constraints, 24h AI result caching
+- 🔐 **Persistent session** via AsyncStorage — app remembers logged-in users across restarts
+- 🧭 **Role-based navigation** — Admin vs. Student flows with conditional routing
+- 🔑 **Privacy-first** — API key entered locally, never stored on disk, never sent with personal data
 
-**Stack:** `PHP` `Symfony 7` `Twig` `Tailwind CSS` `Docker` `Composer` `PHPUnit`
+```
+Expo / React Native (TypeScript)
+├── Auth Context (AsyncStorage session)
+├── SQLite (events · registrations · favorites · llm_cache)
+├── LLM Service → OpenRouter (gemini-2.0-flash-exp:free)
+│   ├── Natural language search
+│   ├── Personalized recommendations
+│   ├── Schedule planning
+│   └── Catalogue Q&A
+└── React Navigation (Native Stack + Bottom Tabs)
+```
 
----
-
-### 🏨 [Hotel Management System](https://github.com/MinaBouzid1/hotel_management)
-> *Full-stack hotel operations platform*
-
-A comprehensive hotel management web application covering the full guest and staff lifecycle — from room reservations to HR management, payment processing, and receipt generation.
-
-**Key highlights:**
-- 🔐 **Multi-role authentication** — Admin, RH staff, Employees & Clients
-- 📋 **Complete reservation pipeline** — availability check → booking → payment → PDF receipt download
-- 💰 **Finance & admin dashboards** — financial reports, stock management, service consultation
-- 👥 **HR module** — employee management (add/edit/delete), department assignments
-- 98 commits — actively developed with real production complexity
-
-**Stack:** `PHP` `MySQL` `HTML` `CSS` `JavaScript` `FPDF`
+**Stack:** `TypeScript` `React Native` `Expo` `SQLite` `AsyncStorage` `React Navigation` `OpenRouter API` `LLM (Gemini)`
 
 ---
 
-### 🛠️ [Web Workshops — atelier series](https://github.com/MinaBouzid1/atelier)
-> *Progressive frontend & JavaScript labs*
+## 🎓 JEE Workshops & Labs
 
-A series of hands-on workshops covering core web technologies:
-- **[atelier](https://github.com/MinaBouzid1/atelier)** — HTML/CSS fundamentals & semantic markup
-- **[atelier2](https://github.com/MinaBouzid1/atelier2)** — JavaScript DOM manipulation & interactivity
-- **[atelier_3](https://github.com/MinaBouzid1/atelier_3)** — Advanced HTML5 & CSS3 patterns
+Hands-on labs covering the full Java EE / Jakarta EE stack — from MVC patterns to distributed EJB architectures and Reinforcement Learning.
+
+| Workshop | Topic | Stack |
+|---|---|---|
+| [Atelier 4 — Distributed JEE App](https://github.com/MinaBouzid1/Atelier4_-Application-Distribu-e-JEE-pour-la-Gestion-des-tudiants) | Distributed student management system · EJB Remote + JPA + MVC2 + WildFly | `Java EE` `EJB` `JPA` `Servlets` `JSP` `JNDI` `WildFly` `MySQL` |
+| [Atelier 2 — MVC2 + JPA E-commerce](https://github.com/MinaBouzid1/Atelier2_Application-web-bas-e-sur-MVC2-et-JPA) | Full e-commerce platform: cart, orders, auth, product catalogue, MVC2 pattern | `Java EE` `JPA` `EclipseLink` `Servlets` `JSP` `Bootstrap 5` `MySQL` |
+| [Atelier 4 ML — Q-Learning Pong](https://github.com/MinaBouzid1/Atelier4ML) | Reinforcement Learning agent mastering Pong via Q-Learning · 3 training modes | `Python` `Q-Learning` `pygame` `NumPy` `Matplotlib` |
 
 ---
 
@@ -105,58 +146,66 @@ A series of hands-on workshops covering core web technologies:
 
 <div align="center">
 
-**Languages**
+**Backend & Architecture**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Java](https://img.shields.io/badge/Java_17-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
+![Spring Cloud](https://img.shields.io/badge/Spring_Cloud-6DB33F?style=flat-square&logo=spring&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=spring&logoColor=white)
+![JPA](https://img.shields.io/badge/JPA_Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white)
+![EJB](https://img.shields.io/badge/Jakarta_EE_EJB-007396?style=flat-square&logo=java&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
 **AI / ML / Data**
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat-square&logo=xgboost&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq_LLaMA-F55036?style=flat-square&logo=groq&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat-square)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square)
+![Groq](https://img.shields.io/badge/Groq_LLaMA-F55036?style=flat-square)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
 
-**Web Frameworks**
+**Mobile**
 
-![Symfony](https://img.shields.io/badge/Symfony_7-000000?style=flat-square&logo=symfony&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
-![Twig](https://img.shields.io/badge/Twig-8BBF3F?style=flat-square&logo=symfony&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+**Blockchain & Web3**
+
+![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat-square&logo=ethereum&logoColor=white)
+![Web3j](https://img.shields.io/badge/Web3j-4E4E4E?style=flat-square)
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
 
 **MLOps & DevOps**
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubeflow](https://img.shields.io/badge/Kubeflow-0097A7?style=flat-square&logo=kubeflow&logoColor=white)
+![Kubeflow](https://img.shields.io/badge/Kubeflow-0097A7?style=flat-square)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![AWS S3](https://img.shields.io/badge/AWS_S3-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 
-**Protocols & Architecture**
+**Protocols & Standards**
 
-![Anthropic MCP](https://img.shields.io/badge/Anthropic_MCP-CC785C?style=flat-square&logo=anthropic&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Shopify API](https://img.shields.io/badge/Shopify_API-96BF48?style=flat-square&logo=shopify&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=json-web-tokens&logoColor=white)
+![REST](https://img.shields.io/badge/REST_API-009688?style=flat-square)
+![WebSocket](https://img.shields.io/badge/WebSocket_STOMP-4E4E4E?style=flat-square)
+![Anthropic MCP](https://img.shields.io/badge/Anthropic_MCP-CC785C?style=flat-square)
 
 </div>
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Activity
 
 <div align="center">
 
-![Mina's GitHub Stats](https://github-readme-stats.vercel.app/api?username=MinaBouzid1&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MinaBouzid1&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
-
-![GitHub Streak](https://streak-stats.demolab.com?user=MinaBouzid1&theme=tokyonight&hide_border=true)
+<a href="https://github.com/MinaBouzid1">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=MinaBouzid1&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MinaBouzid1&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+</a>
 
 </div>
 
@@ -164,24 +213,24 @@ A series of hands-on workshops covering core web technologies:
 
 ## 🏗️ What I'm Building Toward
 
-```python
-goals = {
-    "short_term": [
-        "Deploy smart-ecommerce on Kubernetes",
-        "Add real-time streaming to BI dashboard",
-        "Contribute to open-source ML tooling"
-    ],
-    "long_term": [
-        "Build production AI agents at scale",
-        "Master distributed systems & MLOps",
-        "Create impactful SaaS products"
-    ],
-    "currently_learning": [
-        "Advanced LLM fine-tuning",
-        "Kubernetes orchestration",
-        "System design for AI applications"
-    ]
-}
+```java
+Map<String, List<String>> roadmap = Map.of(
+    "short_term", List.of(
+        "Deploy JEE platform to Kubernetes",
+        "Add real-time event streaming to smart-ecommerce dashboard",
+        "Deepen Ethereum smart contract development skills"
+    ),
+    "long_term", List.of(
+        "Build production AI-native backend systems",
+        "Master distributed systems & cloud-native architecture",
+        "Contribute to open-source Java/Spring ecosystem"
+    ),
+    "currently_learning", List.of(
+        "Advanced Kubernetes & service mesh",
+        "Event sourcing & CQRS patterns",
+        "LLM fine-tuning & RAG systems"
+    )
+);
 ```
 
 ---
@@ -190,7 +239,7 @@ goals = {
 
 <div align="center">
 
-I'm always open to interesting conversations, collaborations, or opportunities.
+I'm always open to interesting conversations, collaborations, or backend engineering opportunities.
 
 [![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mina-bouzid-ab3ba5330/)
 [![GitHub](https://img.shields.io/badge/Follow_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MinaBouzid1)
@@ -201,23 +250,8 @@ I'm always open to interesting conversations, collaborations, or opportunities.
 
 <div align="center">
 
-*"Code is poetry when it solves real problems elegantly."*
+*"Backend is not a support role. It's where the architecture lives."*
 
-![Profile Views](https://komarev.com/ghpvc/?username=MinaBouzid1&color=blueviolet&style=flat-square&label=Profile+Views)
+![Profile Views](https://komarev.com/ghpvc/?username=MinaBouzid1&color=0891b2&style=flat-square&label=Profile+Views)
 
 </div>
-
-<!--
-**MinaBouzid1/MinaBouzid1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
