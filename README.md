@@ -1,5 +1,11 @@
 <div align="center">
 
+<!-- Animated Intro Sequence -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&duration=2000&pause=500&color=0891B2&center=true&vCenter=true&width=800&lines=Initializing...;Loading+profile...;Access+granted...;Welcome+to+my+digital+space..." alt="Boot Sequence" />
+</a></div>
+²<div align="center">
+
 ```
 ███╗   ███╗██╗███╗   ██╗ █████╗     ██████╗  ██████╗ ██╗   ██╗███████╗██╗██████╗
 ████╗ ████║██║████╗  ██║██╔══██╗    ██╔══██╗██╔═══██╗██║   ██║╚══███╔╝██║██╔══██╗
@@ -21,124 +27,13 @@
 
 ## 👋 About Me
 
-I'm **Mina Bouzid**, a software engineering student at **FST Tanger (LSI2)** and a **Backend Engineer** who designs and builds production-grade distributed systems. My core strength is architecting scalable microservices backends — from data modeling and API design to security, async messaging, and blockchain integration.
+I'm **Mina Bouzid**, a software engineering student at **FST Tanger (LSI)** and a **versatile engineer** who turns complex problems into working systems. I don't box myself into one layer of the stack — I architect backends, train AI models, and build mobile apps, always chasing the cleanest solution to the hardest problem.
 
-> *"I architect systems that scale. Backend is not just code — it's the backbone of everything."*
+&gt; *"Code is a tool. Architecture is a mindset. Impact is the goal."*
 
-- 🏗️ **Architect & Backend Engineer** on complex microservices platforms (Spring Boot, JEE, EJB)
-- 🤖 Building AI pipelines with LLMs, MLOps, Reinforcement Learning
-- 📱 Shipping cross-platform mobile apps with React Native + LLM reasoning
-- ⛓️ Integrating Ethereum blockchain & smart contracts into real systems
+- 🔧 **End-to-End Builder** — from system design and data modeling to APIs, UIs, and deployment
+- 🤖 **AI Practitioner** — LLMs, MLOps, reinforcement learning, and intelligent automation
 - 🌍 Based in **Morocco** · Open to collaboration & opportunities
-
----
-
-## 🚀 Featured Projects
-
----
-
-### 🏠 [Decentralized Rental Platform — JEE Microservices](https://github.com/MinaBouzid1/JEE-Project) ⭐
-> **Role: Architect & Backend Engineer** · 120 commits · Java · Spring Boot · Blockchain
-
-A production-grade real-estate rental platform that combines a **9-microservice Spring Boot backend**, an **Ethereum blockchain escrow system**, an **Angular frontend**, a **FastAPI AI service**, and full **AWS cloud deployment**.
-
-**My role — Backend Architecture & Engineering:**
-- 🏗️ Designed the entire **5-layer microservices architecture** (Frontend → API Gateway → Microservices → Infrastructure → Data/Blockchain)
-- ⚙️ Built and configured the **full Spring Cloud infrastructure**: Eureka service discovery, centralized Config Server, API Gateway with JWT security + rate limiting + CORS
-- 🔧 Developed **9 microservices** from scratch: User, Listing, Booking, Payment, Messaging, Notification, Review, Media, Blockchain (ports 8081–8089)
-- 🔐 Implemented **JWT auth with refresh tokens**, BCrypt, role-based security (USER / HOST / ADMIN), blacklisting, audit logs
-- 💬 Built **real-time WebSocket chat** (STOMP protocol) with message history, read receipts, archiving
-- 📨 Configured **RabbitMQ** async messaging — exchanges, queues, dead-letter queues, publish-subscribe patterns
-- 🗄️ Designed the **full MySQL schema**: normalized tables, relationships, indexes, constraints, stored procedures
-- ⛓️ Integrated **Web3j + Ethereum** for ETH payments, escrow funds, on-chain booking confirmation, gas fee tracking
-- ☁️ Designed cloud architecture with **AWS S3** (media storage), multi-environment support, Spring Boot Actuator monitoring
-- 📐 Produced full **UML documentation**: class diagrams, activity diagrams, use-case diagrams for all packages
-
-```
-Angular + NgRx
-      ↓ HTTPS
-API Gateway (JWT · Rate Limiting · Load Balancing)
-      ↓
-User(8081) · Listing(8082) · Booking(8083) · Payment(8084)
-Messaging(8085) · Notification(8086) · Review(8087) · Media(8088) · Blockchain(8089)
-      ↓
-Eureka(8761) · Config(8888) · RabbitMQ(5672)
-      ↓
-MySQL 8.0 · AWS S3
-      ↓
-Ethereum Sepolia · Smart Contracts · MetaMask
-```
-
-**Backend stats:** ~40,000+ lines of Java · 150+ classes · 80+ interfaces · 200+ unit tests · <200ms average response time
-
-**Stack:** `Java 17` `Spring Boot 3` `Spring Cloud` `Spring Security` `JPA/Hibernate` `MySQL` `RabbitMQ` `Web3j` `Ethereum` `AWS S3` `Docker` `Maven`
-
----
-
-### ◈ [Smart eCommerce Intelligence](https://github.com/MinaBouzid1/smart-ecommerce) ⭐
-> *End-to-end AI/ML pipeline · MLOps · LLMs · Business Intelligence*
-
-A complete AI system that collects product data from 8+ Shopify stores via autonomous A2A scraping agents, processes it through ML algorithms, enriches it with LLMs, and visualizes everything in a 7-page BI dashboard — orchestrated by a full MLOps pipeline.
-
-```
-Shopify API ──► A2A Agents ──► ML Pipeline ──► LLM Enrichment ──► BI Dashboard
-               (Parallel)    (KMeans+XGBoost)  (Groq LLaMA 3.1)  (Streamlit)
-                                   │
-                        Kubeflow + Docker + GitHub Actions CI/CD
-                                   │
-                         MCP Architecture (Anthropic 2025-03-26)
-```
-
-**Key highlights:**
-- 🕷️ **Distributed A2A scraping** — Shopify API + Playwright for JS-heavy sites · 3,200+ products collected
-- 🧠 **ML pipeline** — KMeans clustering (Silhouette ~0.796), XGBoost classification (accuracy ~0.82–0.90), Apriori association rules, composite Top-K scoring
-- 🤖 **LLM layer** — product summaries, market trend reports & marketing strategies via Groq LLaMA 3.1-8b + LangChain
-- 🔒 **Anthropic MCP** — least-privilege agents, full JSONL audit logging, spec 2025-03-26 compliant
-- ⚙️ **MLOps** — Kubeflow pipelines, Docker containers, GitHub Actions CI/CD with pytest coverage
-- 📊 **7-page Streamlit BI dashboard** — KPIs, clustering visualization, AI chatbot Q&A, MCP audit viewer
-
-**Stack:** `Python` `Scikit-learn` `XGBoost` `LangChain` `Groq` `Kubeflow` `Docker` `Streamlit` `Playwright` `Scrapy` `Anthropic MCP`
-
----
-
-### 📱 [CampusEvents AI](https://github.com/MinaBouzid1/CampusEvents_AI)
-> *Cross-platform mobile app · React Native · Expo · LLM-powered assistant*
-
-A multiplatform mobile application (iOS/Android) that centralizes university campus events and helps students find the most relevant ones using an LLM as the reasoning engine over the full event catalogue.
-
-**Key highlights:**
-- 📅 **Full event lifecycle** — Admin CRUD + student browsing, filtering, registration, favorites
-- 🤖 **4 LLM-powered AI features** — natural language event search, personalized recommendations based on favorites history, conflict-free schedule planning, and open Q&A on the catalogue
-- 🗄️ **Local SQLite database** with full relational integrity: cascade deletes, unique constraints, 24h AI result caching
-- 🔐 **Persistent session** via AsyncStorage — app remembers logged-in users across restarts
-- 🧭 **Role-based navigation** — Admin vs. Student flows with conditional routing
-- 🔑 **Privacy-first** — API key entered locally, never stored on disk, never sent with personal data
-
-```
-Expo / React Native (TypeScript)
-├── Auth Context (AsyncStorage session)
-├── SQLite (events · registrations · favorites · llm_cache)
-├── LLM Service → OpenRouter (gemini-2.0-flash-exp:free)
-│   ├── Natural language search
-│   ├── Personalized recommendations
-│   ├── Schedule planning
-│   └── Catalogue Q&A
-└── React Navigation (Native Stack + Bottom Tabs)
-```
-
-**Stack:** `TypeScript` `React Native` `Expo` `SQLite` `AsyncStorage` `React Navigation` `OpenRouter API` `LLM (Gemini)`
-
----
-
-## 🎓 JEE Workshops & Labs
-
-Hands-on labs covering the full Java EE / Jakarta EE stack — from MVC patterns to distributed EJB architectures and Reinforcement Learning.
-
-| Workshop | Topic | Stack |
-|---|---|---|
-| [Atelier 4 — Distributed JEE App](https://github.com/MinaBouzid1/Atelier4_-Application-Distribu-e-JEE-pour-la-Gestion-des-tudiants) | Distributed student management system · EJB Remote + JPA + MVC2 + WildFly | `Java EE` `EJB` `JPA` `Servlets` `JSP` `JNDI` `WildFly` `MySQL` |
-| [Atelier 2 — MVC2 + JPA E-commerce](https://github.com/MinaBouzid1/Atelier2_Application-web-bas-e-sur-MVC2-et-JPA) | Full e-commerce platform: cart, orders, auth, product catalogue, MVC2 pattern | `Java EE` `JPA` `EclipseLink` `Servlets` `JSP` `Bootstrap 5` `MySQL` |
-| [Atelier 4 ML — Q-Learning Pong](https://github.com/MinaBouzid1/Atelier4ML) | Reinforcement Learning agent mastering Pong via Q-Learning · 3 training modes | `Python` `Q-Learning` `pygame` `NumPy` `Matplotlib` |
 
 ---
 
@@ -198,18 +93,156 @@ Hands-on labs covering the full Java EE / Jakarta EE stack — from MVC patterns
 
 ---
 
-## 📊 GitHub Activity
+
+## 🚀 Featured Projects
+
+---
+
+### 🏠 [Decentralized Rental Platform — JEE Microservices](https://github.com/MinaBouzid1/JEE-Project) ⭐
+> **Role: Architect & Backend Engineer** · 120 commits · Java · Spring Boot · Blockchain
+
+A production-grade real-estate rental platform that combines a **9-microservice Spring Boot backend**, an **Ethereum blockchain escrow system**, an **Angular frontend**, a **FastAPI AI service**, and full **AWS cloud deployment**.
+
+**My role — Backend Architecture & Engineering:**
+-  Designed the entire **5-layer microservices architecture** (Frontend → API Gateway → Microservices → Infrastructure → Data/Blockchain)
+-  Built and configured the **full Spring Cloud infrastructure**: Eureka service discovery, centralized Config Server, API Gateway with JWT security + rate limiting + CORS
+-  Developed **9 microservices** from scratch: User, Listing, Booking, Payment, Messaging, Notification, Review, Media, Blockchain (ports 8081–8089)
+-  Implemented **JWT auth with refresh tokens**, BCrypt, role-based security (USER / HOST / ADMIN), blacklisting, audit logs
+-  Built **real-time WebSocket chat** (STOMP protocol) with message history, read receipts, archiving
+-  Configured **RabbitMQ** async messaging — exchanges, queues, dead-letter queues, publish-subscribe patterns
+-  Designed the **full MySQL schema**: normalized tables, relationships, indexes, constraints, stored procedures
+-  Designed cloud architecture with **AWS S3** (media storage), multi-environment support, Spring Boot Actuator monitoring
+-  Produced full **UML documentation**: class diagrams, activity diagrams, use-case diagrams for all packages
+
+```
+Angular + NgRx
+      ↓ HTTPS
+API Gateway (JWT · Rate Limiting · Load Balancing)
+      ↓
+User(8081) · Listing(8082) · Booking(8083) · Payment(8084)
+Messaging(8085) · Notification(8086) · Review(8087) · Media(8088) · Blockchain(8089)
+      ↓
+Eureka(8761) · Config(8888) · RabbitMQ(5672)
+      ↓
+MySQL 8.0 · AWS S3
+      ↓
+Ethereum Sepolia · Smart Contracts · MetaMask
+```
+
+**Backend stats:** ~40,000+ lines of Java · 150+ classes · 80+ interfaces · 200+ unit tests · <200ms average response time
+
+**Stack:** `Java 17` `Spring Boot 3` `Spring Cloud` `Spring Security` `JPA/Hibernate` `MySQL` `RabbitMQ` `Web3j` `Ethereum` `AWS S3` `Docker` `Maven`
+
+---
+
+### ◈ [Smart eCommerce Intelligence](https://github.com/MinaBouzid1/smart-ecommerce) ⭐
+> *End-to-end AI/ML pipeline · MLOps · LLMs · Business Intelligence*
+
+A complete AI system that collects product data from 8+ Shopify stores via autonomous A2A scraping agents, processes it through ML algorithms, enriches it with LLMs, and visualizes everything in a 7-page BI dashboard — orchestrated by a full MLOps pipeline.
+
+```
+Shopify API ──► A2A Agents ──► ML Pipeline ──► LLM Enrichment ──► BI Dashboard
+               (Parallel)    (KMeans+XGBoost)  (Groq LLaMA 3.1)  (Streamlit)
+                                   │
+                        Kubeflow + Docker + GitHub Actions CI/CD
+                                   │
+                         MCP Architecture (Anthropic 2025-03-26)
+```
+
+**Key highlights:**
+-  **Distributed A2A scraping** — Shopify API + Playwright for JS-heavy sites · 3,200+ products collected
+-  **ML pipeline** — KMeans clustering (Silhouette ~0.796), XGBoost classification (accuracy ~0.82–0.90), Apriori association rules, composite Top-K scoring
+-  **LLM layer** — product summaries, market trend reports & marketing strategies via Groq LLaMA 3.1-8b + LangChain
+-  **Anthropic MCP** — least-privilege agents, full JSONL audit logging, spec 2025-03-26 compliant
+-  **MLOps** — Kubeflow pipelines, Docker containers, GitHub Actions CI/CD with pytest coverage
+- 📊 **7-page Streamlit BI dashboard** — KPIs, clustering visualization, AI chatbot Q&A, MCP audit viewer
+
+**Stack:** `Python` `Scikit-learn` `XGBoost` `LangChain` `Groq` `Kubeflow` `Docker` `Streamlit` `Playwright` `Scrapy` `Anthropic MCP`
+
+---
+
+### 📱 [CampusEvents AI](https://github.com/MinaBouzid1/CampusEvents_AI)
+> *Cross-platform mobile app · React Native · Expo · LLM-powered assistant*
+
+A multiplatform mobile application (iOS/Android) that centralizes university campus events and helps students find the most relevant ones using an LLM as the reasoning engine over the full event catalogue.
+
+**Key highlights:**
+-  **Full event lifecycle** — Admin CRUD + student browsing, filtering, registration, favorites
+-  **4 LLM-powered AI features** — natural language event search, personalized recommendations based on favorites history, conflict-free schedule planning, and open Q&A on the catalogue
+-  **Local SQLite database** with full relational integrity: cascade deletes, unique constraints, 24h AI result caching
+-  **Persistent session** via AsyncStorage — app remembers logged-in users across restarts
+-  **Role-based navigation** — Admin vs. Student flows with conditional routing
+-  **Privacy-first** — API key entered locally, never stored on disk, never sent with personal data
+
+```
+Expo / React Native (TypeScript)
+├── Auth Context (AsyncStorage session)
+├── SQLite (events · registrations · favorites · llm_cache)
+├── LLM Service → OpenRouter (gemini-2.0-flash-exp:free)
+│   ├── Natural language search
+│   ├── Personalized recommendations
+│   ├── Schedule planning
+│   └── Catalogue Q&A
+└── React Navigation (Native Stack + Bottom Tabs)
+```
+
+**Stack:** `TypeScript` `React Native` `Expo` `SQLite` `AsyncStorage` `React Navigation` `OpenRouter API` `LLM (Gemini)`
+
+---
+
+## 🎓 JEE Workshops & Labs
+
+Hands-on labs covering the full Java EE / Jakarta EE stack — from MVC patterns to distributed EJB architectures and Reinforcement Learning.
+
+| Workshop | Topic | Stack |
+|---|---|---|
+| [Atelier 4 — Distributed JEE App](https://github.com/MinaBouzid1/Atelier4_-Application-Distribu-e-JEE-pour-la-Gestion-des-tudiants) | Distributed student management system · EJB Remote + JPA + MVC2 + WildFly | `Java EE` `EJB` `JPA` `Servlets` `JSP` `JNDI` `WildFly` `MySQL` |
+| [Atelier 2 — MVC2 + JPA E-commerce](https://github.com/MinaBouzid1/Atelier2_Application-web-bas-e-sur-MVC2-et-JPA) | Full e-commerce platform: cart, orders, auth, product catalogue, MVC2 pattern | `Java EE` `JPA` `EclipseLink` `Servlets` `JSP` `Bootstrap 5` `MySQL` |
+| [Atelier 4 ML — Q-Learning Pong](https://github.com/MinaBouzid1/Atelier4ML) | Reinforcement Learning agent mastering Pong via Q-Learning · 3 training modes | `Python` `Q-Learning` `pygame` `NumPy` `Matplotlib` |
 
 <div align="center">
 
-<a href="https://github.com/MinaBouzid1">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=MinaBouzid1&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MinaBouzid1&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-</a>
+### 📊 GitHub Statistics
 
-</div>
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <img src="https://img.shields.io/badge/25-0891b2?style=for-the-badge&logo=github&logoColor=white&label=Public%20Repos&labelColor=1a1a2e" />
+      <br><sub>Repositories</sub>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://img.shields.io/badge/7-0891b2?style=for-the-badge&logo=github&logoColor=white&label=Followers&labelColor=1a1a2e" />
+      <br><sub>Followers</sub>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://img.shields.io/badge/2-FFD700?style=for-the-badge&logo=github&logoColor=black&label=Total%20Stars&labelColor=1a1a2e" />
+      <br><sub>⭐ Stars Earned</sub>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://img.shields.io/badge/Active-22c55e?style=for-the-badge&logo=statuspage&logoColor=white&label=Status&labelColor=1a1a2e" />
+      <br><sub>Contributions</sub>
+    </td>
+  </tr>
+</table>
 
 ---
+
+### 🔥 Contribution Streak
+
+<p>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=MinaBouzid1&theme=tokyonight&hide_border=true&border_radius=10&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
+</p>
+
+---
+
+### 📈 Activity Graph
+
+<p>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MinaBouzid1&theme=tokyo-night&hide_border=true&radius=10&area=true" alt="Activity Graph" />
+</p>
+</div>
+---
+
 
 ## 🏗️ What I'm Building Toward
 
